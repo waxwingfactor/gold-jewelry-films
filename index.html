@@ -23,6 +23,7 @@
   .meta { font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--soft); }
   .player { background: #0d0a08; border-radius: 4px; overflow: hidden; box-shadow: 0 24px 60px -32px rgba(43,33,26,.55); }
   .player.tall { max-width: 420px; margin: 0 auto; }
+  .tall-head { max-width: 420px; margin-left: auto; margin-right: auto; flex-direction: column; align-items: flex-start; gap: 6px; }
   video { display: block; width: 100%; height: auto; object-fit: contain; background: #0d0a08; }
   video:fullscreen, video:-webkit-full-screen { object-fit: contain; width: 100%; height: 100%; max-width: none; max-height: none; border-radius: 0; }
   .refs { border-top: 1px solid var(--line); padding-top: 56px; }
@@ -54,7 +55,7 @@
   </section>
 
   <section>
-    <div class="head"><h2>OSSIA</h2><div class="meta">Hoops · Bangles · Rings · Rope chain · 9:16</div></div>
+    <div class="head tall-head"><h2>OSSIA</h2><div class="meta">Hoops · Bangles · Rings · Rope chain · 9:16</div></div>
     <div class="player tall">
       <video controls playsinline preload="metadata" poster="media/ossia-poster.jpg"><source src="media/ossia-v1.mp4" type="video/mp4"></video>
     </div>
